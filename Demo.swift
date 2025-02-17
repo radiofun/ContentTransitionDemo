@@ -45,8 +45,8 @@ struct NumericTextTransitionView: View {
                 } else {
                     withAnimation(.spring()){
                         isLimit = true
-                        wiggle()
                     }
+                    wiggle()
                 }
             } label: {
                     Image(systemName: "minus.circle.fill")
